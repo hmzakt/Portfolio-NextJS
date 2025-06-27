@@ -1,0 +1,50 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Blogora",
+        "slug": "blogora",
+        "description": "Blogify is a full-featured blog web app built with ReactJS and powered by Appwrite on the backend. It includes user authentication and complete CRUD functionality for managing posts.",
+        "Github": "https://github.com/hmzakt/blogora",
+        "isFeatured": true,
+        "LiveDemo": "https://blogora-wheat.vercel.app/" 
+      },
+      {
+        "id": 2,
+        "title": "url shortener",
+        "slug": "url-shortener",
+        "description": "A backend-only URL shortener built with Node.js, Express, MongoDB, and nanoid. Includes simple EJS views for input and redirection. No deployment, runs locally",
+        "Github": "https://github.com/hmzakt/URLshortener",
+        "LiveDemo": "https://github.com/hmzakt/URLshortener",
+        "isFeatured": false
+      },
+      {
+        "id": 3,
+        "title": "Used Car Price Predictor",
+        "slug": "used-car-price-predictor",
+        "description": "A data science project that predicts used car prices using a machine learning model. Built with React for the frontend, Flask for the backend, and scikit-learn for model training, it features a complete pipeline from data preprocessing to deployment.",
+        "Github": "https://github.com/hmzakt/used_car_price_prediction_model",
+        "isFeatured": true,
+        "LiveDemo": ""
+      },
+      { 
+        "id": 4,
+        "title": "Portfolio webiste",
+        "slug": "portfolio-website",
+        "description": "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects, skills, and experience. It focuses on clean design, responsive layout, and smooth user experience.",
+        "Github": "https://github.com/hmzakt/self_portfolio",
+        "isFeatured": true,
+        "LiveDemo": ""
+      },
+      {
+        "id": 5,
+        "title": "Authentication System",
+        "slug": "auth-system",
+        "description": "A minimal and secure authentication system built with Node.js, Express, and MongoDB. Supports user registration, login, hashed passwords, JWT-based authentication, and protected routes.",
+        "Github": "https://github.com/hmzakt/Auth-system-Node-Express-MongoDB",
+        "isFeatured": false,
+        "LiveDemo": "https://blogora-wheat.vercel.app/" 
+      }
+    ]
+  }
+  

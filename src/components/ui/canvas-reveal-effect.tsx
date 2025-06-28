@@ -150,7 +150,7 @@ const ShaderMaterial = ({
   let lastFrameTime = 0;
 
   const preparedUniforms = useMemo(() => {
-    const result: Record<string, { value: any; type?: string }> = {};
+    const result: Record<string, { value: unknown; type?: string }> = {};
     for (const key in uniforms) {
       const uniform = uniforms[key];
       if (uniform.type === "uniform3fv") {

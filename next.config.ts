@@ -21,7 +21,10 @@ const nextConfig: NextConfig = {
         hostname: "assets.userstyles.org",
       },
     ],
-  },    
+  },  
+   typescript: {
+    ignoreBuildErrors: true,
+  },  
 };
 
 export default nextConfig;

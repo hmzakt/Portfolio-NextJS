@@ -25,7 +25,7 @@
       "description": "A data science project that predicts used car prices using a machine learning model. Built with React for the frontend, Flask for the backend, and scikit-learn for model training, it features a complete pipeline from data preprocessing to deployment.",
       "Github": "https://github.com/hmzakt/used_car_price_prediction_model",
       "isFeatured": true,
-      "LiveDemo": ""
+      "LiveDemo": "https://used-car-price-prediction-model.vercel.app/"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "description": "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects, skills, and experience. It focuses on clean design, responsive layout, and smooth user experience.",
       "Github": "https://github.com/hmzakt/self_portfolio",
       "isFeatured": true,
-      "LiveDemo": ""
+      "LiveDemo": "https://hmzakt.vercel.app/"
     },
     {
       "id": 5,

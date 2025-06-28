@@ -1,9 +1,10 @@
 "use client";
 import React from 'react'
 import { Button } from './ui/moving-border';
-import { HeroHighlight} from "./ui/hero-highlight";
+import { HeroHighlight } from "./ui/hero-highlight";
 import { FlipWords } from "./ui/flip-words";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import Image from 'next/image';
 
 const ResumeLink = 'https://drive.google.com/file/d/1vlMniAKGDx_npsj7qeSJcsvVxw8sgrQW/view?usp=drive_link'
 const socials = [
@@ -11,7 +12,7 @@ const socials = [
     id: 1,
     name: "LeetCode",
     image:
-      "https://cdn.brandfetch.io/idaTrjEZHy/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1735652044305",
+      "https://assets.userstyles.org/assets_packs/type=style/user_id=4110296/screenshot_2f9afbff-9b59-4a2b-8fd7-8ba1209d7d0c_thumb.webp",
     link: "https://leetcode.com/u/hmz_akt/"
   },
   {
@@ -46,8 +47,15 @@ function HeroSection() {
         <div className="flex flex-col items-center justify-center text-center max-w-xl w-full">
 
           <div className="w-32 h-32 md:w-40 md:h-40 mb-6 hover:scale-110 transition-transform duration-200">
-            <img src="/svgs/temp-logo.png" alt="Logo" className="w-full h-full object-contain" />
+            <Image
+              src="/svgs/temp-logo.png"
+              alt="Logo"
+              width={160}   
+              height={160}  
+              className="w-full h-full object-contain"
+            />
           </div>
+
 
           <div className="text-3xl md:text-4xl font-normal text-neutral-600 dark:text-neutral-400 leading-snug">
             <div className="mb-4 text-[2.5rem] md:text-[3rem] font-semibold text-neutral-700 dark:text-neutral-100 fade-up-pulse md:whitespace-nowrap">

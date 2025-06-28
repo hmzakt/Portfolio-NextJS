@@ -24,9 +24,12 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Your Portfolio',
-  description: 'Built by Hamza',
-};
+  title: "HMZ | Portfolio",
+  description: "Personal portfolio of Md Hamza Akhtar, full-stack developer.",
+  icons: {
+    icon: "/svgs/temp-logo.png", 
+  },
+}
 
 
 export default function RootLayout({

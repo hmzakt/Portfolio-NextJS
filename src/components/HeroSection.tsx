@@ -38,7 +38,7 @@ const socials = [
   },
 ];
 
-const words = ["Web Design", "Web Development", "Data Structure", "Data Science", "Machine Learning"];
+const words = ["Web Design", "Web Development", "Data Structures", "Data Science", "Machine Learning"];
 
 function HeroSection() {
   return (

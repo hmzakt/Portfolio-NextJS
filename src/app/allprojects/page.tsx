@@ -1,7 +1,6 @@
 import React from 'react'
 import projectsData from '@/data/projects_Data.json'
 import { CardSpotlight } from "@/components/ui/card-spotlight";
-import Link from 'next/link';
 import { Button } from '@/components/ui/moving-border';
 import { cn } from "@/lib/utils";
 

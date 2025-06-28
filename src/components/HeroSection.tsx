@@ -1,8 +1,7 @@
 "use client";
 import React from 'react'
-import Link from 'next/link'
 import { Button } from './ui/moving-border';
-import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import { HeroHighlight} from "./ui/hero-highlight";
 import { FlipWords } from "./ui/flip-words";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 

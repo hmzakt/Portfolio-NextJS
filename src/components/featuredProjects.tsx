@@ -21,7 +21,7 @@ function FeaturedProjects() {
   const featuredProjects = projectsData.projects.filter((projects: Project) => projects.isFeatured)
 
   return (
-        <div className="relative flex flex-col min-h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
+    <div className="relative flex flex-col min-h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
       <div
         className={cn(
           "absolute inset-0",
@@ -32,65 +32,70 @@ function FeaturedProjects() {
       />
       {/* Radial gradient for the container to give a faded look */}
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-    <div className="py-12 relative z-10">
-      <div>
-        <div className="text-center">
-          <h2 className="text-2xl text-teal-600 font-semibold tracking-wide uppercase z-20">FEATURED PROJECTS</h2>
+      <div className="py-12 relative z-10">
+        <div>
+          <div className="text-center">
+            <h2 className="text-2xl text-teal-600 font-semibold tracking-wide uppercase z-20">FEATURED PROJECTS</h2>
+          </div>
         </div>
-      </div>
-      <div className="mt-10 mx-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-          {featuredProjects.map((projects: Project) => (
-            <div key={projects.id} className="flex justify-center">
+        <div className="mt-10 mx-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+            {featuredProjects.map((projects: Project) => (
+              <div key={projects.id} className="flex justify-center">
 
 
-              <CardSpotlight className="w-96 min-h-[24rem]">
-                <p className="text-xl font-bold relative z-20 mt-2 text-white">
-                  {projects.title}
-                </p>
-                <div className="text-neutral-200 mt-4 relative z-20">
-                  {projects.description}
-                </div>
-                <div className='flex flex-col mt-6'>
-                  <div><a
-                    href={projects.Github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      borderRadius="1.75rem"
-                      className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800"
-                    >
-                      Github
-                    </Button>
-                  </a></div>
-                  <div className='mt-3'><a
-                    href={projects.LiveDemo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      borderRadius="1.75rem"
-                      className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800"
-                    >
-                      Demo
-                    </Button>
-                  </a></div></div>
-              </CardSpotlight>
-            </div>
-          ))}
+                <CardSpotlight className="w-96 min-h-[24rem] flex flex-col justify-between">
+                  <div>
+                    <p className="text-xl font-bold relative z-20 mt-2 text-white">
+                      {projects.title}
+                    </p>
+                    <div className="text-neutral-200 mt-4 relative z-20">
+                      {projects.description}
+                    </div>
+                  </div>
+
+                  <div className="mt-6 relative z-20 flex flex-col">
+                    <div className="transform transition-transform duration-200 hover:scale-105">
+                      <a href={projects.Github} target="_blank" rel="noopener noreferrer">
+                        <Button
+                          borderRadius="1.75rem"
+                          className="cursor-pointer bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800"
+                        >
+                          Github
+                        </Button>
+                      </a>
+                    </div>
+                    <div className="mt-3 transform transition-transform duration-200 hover:scale-105">
+                      <a href={projects.LiveDemo} target="_blank" rel="noopener noreferrer">
+                        <Button
+                          borderRadius="1.75rem"
+                          className="cursor-pointer bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800"
+                        >
+                          Demo
+                        </Button>
+                      </a>
+                    </div>
+                  </div>
+                </CardSpotlight>
+
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-       </div>
-      <div className="mt-20 text-center relative z-20">
-        <Link href={"/"}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-400 transition duration-200"
-        >
-          View All projects
-        </Link>
-      </div>   
+      
+      
+      <div className="lg:mt-5 mb-5 text-center relative z-20">
+  <Link
+    href="/allprojects"
+    className="cursor-pointer inline-block w-full max-w-xs sm:max-w-sm px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-400 transition duration-200"
+  >
+    View All projects
+  </Link>
+</div>
+
     </div>
-    
+
   )
 }
 

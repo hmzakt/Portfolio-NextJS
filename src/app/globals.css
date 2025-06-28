@@ -22,6 +22,26 @@
     }
   }
 }
+
+@keyframes fadeUpPulse {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(1);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.fade-up-pulse {
+  animation: fadeUpPulse 1.2s ease-out;
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

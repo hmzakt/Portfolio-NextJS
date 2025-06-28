@@ -7,7 +7,7 @@ type LanguageBadgeProps = {
 };
 
 const LanguageBadge = ({ iconSrc, label }: LanguageBadgeProps) => (
-    <div className="flex flex-row gap-5 items-center  hover:scale-110 ">
+    <div className="flex flex-row gap-5 items-center  transform transition-transform duration-200 hover:scale-110 ">
         <img className="h-8 w-8" src={iconSrc} alt={`${label} Icon`} />
         <div className="flex flex-row gap-5 items-center cursor-pointer hover:text-[#00E0D0] transition-colors duration-200">{label}</div>
     </div>

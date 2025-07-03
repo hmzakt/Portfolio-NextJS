@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Blogora",
       "slug": "blogora",
-      "description": "Blogify is a full-featured blog web app built with ReactJS and powered by Appwrite on the backend. It includes user authentication and complete CRUD functionality for managing posts.",
+      "description": "Blogora is a full-featured blog web app built with ReactJS and powered by Appwrite on the backend. It includes user authentication and complete CRUD functionality for managing posts.",
       "Github": "https://github.com/hmzakt/blogora",
       "isFeatured": true,
       "LiveDemo": "https://blogora-wheat.vercel.app/"

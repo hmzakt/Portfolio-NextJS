@@ -6,7 +6,7 @@ import { FlipWords } from "./ui/flip-words";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import Image from 'next/image';
 
-const ResumeLink = 'https://drive.google.com/file/d/1vlMniAKGDx_npsj7qeSJcsvVxw8sgrQW/view?usp=drive_link'
+const ResumeLink = 'https://drive.google.com/file/d/1-kkzgA5ESTz4VtyNdRQ_AL91v_hrCmSL/view?usp=drive_link'
 const socials = [
   {
     id: 1,

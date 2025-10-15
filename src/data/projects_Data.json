@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "title": "Portfolio webiste",
+      "title": "Portfolio website",
       "slug": "portfolio-website",
       "description": "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects, skills, and experience. It focuses on clean design, responsive layout, and smooth user experience.",
       "Github": "https://github.com/hmzakt/self_portfolio",
